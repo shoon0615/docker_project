@@ -1,0 +1,21 @@
+Hacker News Top 5 Posts:
+
+1. Title: Servo 2025 Stats
+   URL: https://blogs.igalia.com/mrego/servo-2025-stats/
+   Score: 72 points
+
+2. Title: I Love You, Redis, but I'm Leaving You for SolidQueue
+   URL: https://www.simplethread.com/redis-solidqueue/
+   Score: 126 points
+
+3. Title: There's a ridiculous amount of tech in a disposable vape
+   URL: https://blog.jgc.org/2026/01/theres-ridiculous-amount-of-tech-in.html
+   Score: 489 points
+
+4. Title: I Hate GitHub Actions with Passion
+   URL: https://xlii.space/eng/i-hate-github-actions-with-passion/
+   Score: 42 points
+
+5. Title: Is Rust faster than C?
+   URL: https://steveklabnik.com/writing/is-rust-faster-than-c/
+   Score: 10 points

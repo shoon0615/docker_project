@@ -1,0 +1,17 @@
+{
+  "browser": {
+    "browserName": "chromium",
+    "userDataDir": "/home/vscode/docker_project/test1/playwright_test",
+    "launchOptions": {
+      "headless": true
+    },
+    "contextOptions": {
+      "viewport": {
+        "width": 500,
+        "height": 720
+      }
+    }
+  },
+  "capabilities": ["tabs", "pdf", "vision"],
+  "outputDir": "/home/vscode/docker_project/test1/playwright_test/output"
+}

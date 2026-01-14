@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "playwright": {
+      "command": "npx",
+      "args": [
+        "@playwright/mcp@latest"  // 브라우저 MCP 도구(웹페이지 테스트용)
+        // "--config",
+        // "/home/vscode/docker_project/test1/config.json" // linux
+        // "C:\\Users\\jk\\Desktop\\AI\\config.json" // windows
+      ]
+    }
+    // "mcp서버1": {},
+    // "mcp서버2": {}
+  }
+}
