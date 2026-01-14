@@ -1,7 +1,7 @@
 {
   "browser": {
     "browserName": "chromium",
-    "userDataDir": "/home/vscode/docker_project/test1/playwright_test",
+    "userDataDir": "/home/vscode/docker_project/test1/mcp_test/playwright",
     "launchOptions": {
       "headless": true
     },
@@ -13,5 +13,5 @@
     }
   },
   "capabilities": ["tabs", "pdf", "vision"],
-  "outputDir": "/home/vscode/docker_project/test1/playwright_test/output"
+  "outputDir": "/home/vscode/docker_project/test1/mcp_test/playwright/output"
 }

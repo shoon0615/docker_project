@@ -1,5 +1,7 @@
 {
   "mcpServers": {
+    // "mcp서버1": {},
+    // "mcp서버2": {}
     "playwright": {
       "command": "npx",
       "args": [
@@ -8,8 +10,9 @@
         // "/home/vscode/docker_project/test1/config.json" // linux
         // "C:\\Users\\jk\\Desktop\\AI\\config.json" // windows
       ]
+    },
+    "markitdown": {
+      "command": "markitdown-mcp"
     }
-    // "mcp서버1": {},
-    // "mcp서버2": {}
   }
 }
