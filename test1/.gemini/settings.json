@@ -17,10 +17,9 @@
     "hacker_news_mcp": {
       "command": "node",
       "args": [
-        "mcp_test/my_mcp/hacker_news_mcp/index.js"
-      ]
-      // ],
-      // "cwd": "mcp_test/my_mcp/hacker_news_mcp"
+        "index.js"
+      ],
+      "cwd": "mcp_test/my_mcp/hacker_news_mcp"
     }
   }
 }
