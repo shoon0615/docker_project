@@ -13,18 +13,14 @@
     },
     "markitdown": {
       "command": "markitdown-mcp"
+    },
+    "hacker_news_mcp": {
+      "command": "node",
+      "args": [
+        "mcp_test/my_mcp/hacker_news_mcp/index.js"
+      ]
+      // ],
+      // "cwd": "mcp_test/my_mcp/hacker_news_mcp"
     }
-    // "recraft": {
-    //   "command": "npx",
-    //   "args": [
-    //     "-y",
-    //     "@recraft-ai/mcp-recraft-server@latest"
-    //   ],
-    //   "env": {
-    //     "RECRAFT_API_KEY": "p6cOQUarbOlhCPrdXvNzN59IIBCNb4N4Z8DrQF7D5glMFmDm1QuiCrKbQKLTpOP3",
-    //     "IMAGE_STORAGE_DIRECTORY": "/home/vscode/docker_project/test1/mcp_test/recraft"  // 이미지 저장 경로
-    //     // "RECRAFT_REMOTE_RESULTS_STORAGE": "<YOUR_REMOTE_RESULTS_STORAGE_INDICATOR>"  // 원격 저장 경로
-    //   }
-    // }
   }
 }
