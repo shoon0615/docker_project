@@ -1,7 +1,7 @@
 const { McpServer } = require('@modelcontextprotocol/sdk/server/mcp.js');
 const { StdioServerTransport } = require('@modelcontextprotocol/sdk/server/stdio.js');
 const { z } = require('zod');
-const axios = require('axios'); // Using axios for making HTTP requests
+// const axios = require('axios'); // Using axios for making HTTP requests (Replaced with fetch)
 
 const BASE_URL = 'https://hacker-news.firebaseio.com/v0';
 
@@ -27,8 +27,9 @@ server.registerTool('get_top_story_ids', {
   }),
 }, async () => {
   try {
-    const response = await axios.get(`${BASE_URL}/topstories.json`);
-    return { storyIds: response.data };
+    const response = await fetch(`${BASE_URL}/topstories.json`);
+    const data = await response.json();
+    return { storyIds: data };
   } catch (error) {
     console.error('Error fetching top story IDs:', error.message);
     throw new Error('Failed to fetch top story IDs.');
@@ -55,13 +56,15 @@ server.registerTool('get_story_details', {
   }).describe('Details of a Hacker News story.'),
 }, async ({ story_id }) => {
   try {
-    const response = await axios.get(`${BASE_URL}/item/${story_id}.json`);
-    return response.data;
+    const response = await fetch(`${BASE_URL}/item/${story_id}.json`);
+    const data = await response.json();
+    return data;
   } catch (error) {
     console.error(`Error fetching story details for ID ${story_id}:`, error.message);
     throw new Error(`Failed to fetch details for story ID ${story_id}.`);
   }
 });
+
 
 
 // Use stdio transport for local integration
