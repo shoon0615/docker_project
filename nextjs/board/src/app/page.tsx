@@ -1,9 +1,9 @@
 import Image from "next/image";
-import { getTodo } from "@/data-access/getTodo";
+import { getTodo, getTodos } from "@/data-access/getTodo";
 import { TodoForm } from "@/feature/todo/components/TodoForm";
 
-export default function Home() {
-  const todo = getTodo(1);
+export default async function Home() {
+  const todos = await getTodos();
 
   return (
     <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
@@ -18,6 +18,31 @@ export default function Home() {
         />
 
         <TodoForm />
+
+        <div className="mt-2 mb-8 w-full">
+          <section>
+            <h2 className="text-2xl font-semibold text-black dark:text-zinc-50 mb-4">Todo List</h2>
+            {todos.length === 0 ? (
+              <p className="text-zinc-600 dark:text-zinc-400">No todos yet. Add one above!</p>
+            ) : (
+              <ul className="space-y-2">
+                {todos.map((t) => (
+                  <li
+                    key={t.id}
+                    className="p-4 bg-gray-100 dark:bg-gray-800 rounded-md shadow-sm border border-gray-200 dark:border-gray-700 transition-all duration-200 hover:shadow-lg hover:border-blue-500"
+                  >
+                    <h3 className="text-lg font-medium text-gray-800 dark:text-gray-100">{t.title}</h3>
+                    {t.content && <p className="text-zinc-700 dark:text-zinc-300 text-sm">{t.content}</p>}
+                    <p className="text-xs text-gray-500 dark:text-gray-400">
+                      Created at: {new Date(t.createdAt).toLocaleString()}
+                      {t.published && <span className="ml-2 px-2 py-1 bg-green-200 text-green-800 rounded-full text-xs">Published</span>}
+                    </p>
+                  </li>
+                ))}
+              </ul>
+            )}
+          </section>
+        </div>
 
         <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
           <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
@@ -70,3 +95,4 @@ export default function Home() {
     </div>
   );
 }
+

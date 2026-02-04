@@ -16,10 +16,8 @@ export async function createTodo(data: CreateTodoInput): Promise<Todo> {
   });
 }
 */
-
-import { PrismaClient, Todo } from '@/generated/prisma/client';
-
-const prisma = new PrismaClient();
+import { prisma } from '@/lib/prisma';
+import type { Todo } from '@/generated/prisma/client';
 
 type CreateTodoInput = {
   title: string;
@@ -43,9 +41,5 @@ export async function createTodo(data: CreateTodoInput): Promise<Todo> {
     // In a real application, you'd want to handle errors more gracefully
     console.error('Error creating todo:', error);
     throw new Error('Could not create todo.');
-  } finally {
-    // It's important to disconnect from the database when the process exits.
-    // In a real server application, you'd manage the Prisma Client instance differently (e.g., as a singleton).
-    await prisma.$disconnect();
   }
 }
