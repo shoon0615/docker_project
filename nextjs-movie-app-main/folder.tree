@@ -1,0 +1,81 @@
+📦nextjs-movie-app-main
+ ┣ 📂app
+ ┃ ┣ 📂(default-layout)
+ ┃ ┃ ┣ 📂@posterModal
+ ┃ ┃ ┃ ┣ 📂(...)poster
+ ┃ ┃ ┃ ┃ ┗ 📂[id]
+ ┃ ┃ ┃ ┃ ┃ ┗ 📜page.tsx
+ ┃ ┃ ┃ ┗ 📜default.tsx
+ ┃ ┃ ┣ 📂movies
+ ┃ ┃ ┃ ┗ 📂[id]
+ ┃ ┃ ┃ ┃ ┗ 📜page.tsx
+ ┃ ┃ ┣ 📜layout.tsx
+ ┃ ┃ ┗ 📜page.tsx
+ ┃ ┣ 📂(empty-layout)
+ ┃ ┃ ┣ 📂about
+ ┃ ┃ ┣ 📂poster
+ ┃ ┃ ┃ ┗ 📂[id]
+ ┃ ┃ ┗ 📜layout.tsx
+ ┃ ┣ 📂api
+ ┃ ┃ ┗ 📂movies
+ ┣ 📂components
+ ┣ 📂public
+ ┣ 📂stores
+ ┣ 📂styles
+ ┣ 📂types
+
+
+📦nextjs-movie-app-main
+ ┣ 📂app
+ ┃ ┣ 📂(default-layout)
+ ┃ ┃ ┣ 📂@posterModal
+ ┃ ┃ ┃ ┣ 📂(...)poster
+ ┃ ┃ ┃ ┃ ┗ 📂[id]
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜PosterModal.tsx
+ ┃ ┃ ┃ ┃ ┃ ┗ 📜page.tsx
+ ┃ ┃ ┃ ┗ 📜default.tsx
+ ┃ ┃ ┣ 📂movies
+ ┃ ┃ ┃ ┗ 📂[id]
+ ┃ ┃ ┃ ┃ ┣ 📜loading.tsx
+ ┃ ┃ ┃ ┃ ┣ 📜page.module.scss
+ ┃ ┃ ┃ ┃ ┗ 📜page.tsx
+ ┃ ┃ ┣ 📜layout.tsx
+ ┃ ┃ ┗ 📜page.tsx
+ ┃ ┣ 📂(empty-layout)
+ ┃ ┃ ┣ 📂about
+ ┃ ┃ ┃ ┣ 📜page.module.scss
+ ┃ ┃ ┃ ┗ 📜page.tsx
+ ┃ ┃ ┣ 📂poster
+ ┃ ┃ ┃ ┗ 📂[id]
+ ┃ ┃ ┃ ┃ ┗ 📜page.tsx
+ ┃ ┃ ┣ 📜layout.module.scss
+ ┃ ┃ ┗ 📜layout.tsx
+ ┃ ┣ 📂api
+ ┃ ┃ ┗ 📂movies
+ ┃ ┃ ┃ ┗ 📜route.ts
+ ┃ ┣ 📜favicon.ico
+ ┃ ┣ 📜layout.tsx
+ ┃ ┗ 📜not-found.tsx
+ ┣ 📂components
+ ┃ ┣ 📜Button.module.scss
+ ┃ ┣ 📜Button.tsx
+ ┣ 📂public
+ ┣ 📂stores
+ ┃ ┗ 📜movies.ts
+ ┣ 📂styles
+ ┃ ┣ 📜fonts.ts
+ ┃ ┣ 📜global.scss
+ ┃ ┗ 📜reset.css
+ ┣ 📂types
+ ┃ ┗ 📜env.d.ts
+ ┣ 📜.env.local
+ ┣ 📜.eslintrc.json
+ ┣ 📜.gitignore
+ ┣ 📜.prettierrc
+ ┣ 📜README.md
+ ┣ 📜next-env.d.ts
+ ┣ 📜next.config.mjs
+ ┣ 📜package-lock.json
+ ┣ 📜package.json
+ ┗ 📜tsconfig.json
+
