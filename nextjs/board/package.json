@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev:next": "next dev",
+    "dev:json": "json-server --port 3173 --watch db.json",
+    "dev": "concurrently npm:dev:next npm:dev:json",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
@@ -12,19 +14,23 @@
   },
   "dependencies": {
     "next": "16.1.6",
+    "pretendard": "^1.3.9",
     "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "react-dom": "19.2.3",
+    "sass": "^1.97.3"
   },
   "devDependencies": {
-    "@prisma/client": "^5.14.0",
+    "@prisma/client": "^5.22.0",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "babel-plugin-react-compiler": "1.0.0",
+    "concurrently": "^9.2.1",
     "eslint": "^9",
     "eslint-config-next": "16.1.6",
-    "prisma": "^5.14.0",
+    "json-server": "^1.0.0-beta.5",
+    "prisma": "^5.22.0",
     "tailwindcss": "^4",
     "typescript": "^5"
   }

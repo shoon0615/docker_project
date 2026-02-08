@@ -1,0 +1,73 @@
+{
+  "users": [
+    {
+      "id": "58f2",
+      "name": "Neo",
+      "age": 22
+    },
+    {
+      "id": "7a8b",
+      "name": "Lewis",
+      "age": 57
+    },
+    {
+      "id": "9c3d",
+      "name": "Evan",
+      "age": 35
+    },
+    {
+      "id": "2b1c",
+      "name": "Alex",
+      "age": 22
+    },
+    {
+      "id": "4e6a",
+      "name": "Mike",
+      "age": 41
+    },
+    {
+      "id": "400e",
+      "name": "aa",
+      "age": 12
+    }
+  ],
+  "posts": [
+    {
+      "id": "47g2",
+      "createdAt": "2025-12-16",
+      "title": "CSS Grid와 Flexbox 비교",
+      "content": "레이아웃을 구성할 때 CSS Grid와 Flex 중 무엇을 사용할지 결정하는 방법. 장단점을 비교합니다.",
+      "userId": "7a8b"
+    },
+    {
+      "id": "59h3",
+      "createdAt": "2024-09-29",
+      "title": "자바스크립트 성능 향상 팁",
+      "content": "웹 애플리케이션의 성능을 향상시키는 자바스크립트 최적화 기술을 소개합니다.",
+      "userId": "58f2"
+    }
+  ],
+  "comments": [
+    {
+      "id": "91bg",
+      "createdAt": "2026-02-07",
+      "comment": "Grid와 Flex는 항상 어려웠는데, 명확하게 설명해 주셔서 감사합니다!",
+      "userId": "2b1c",
+      "postId": "47g2"
+    },
+    {
+      "id": "92ch",
+      "createdAt": "2024-10-01",
+      "comment": "이 성능 향상 팁은 정말 유용하네요. 제 앱이 훨씬 빨라졌어요!",
+      "userId": "2b1c",
+      "postId": "59h3"
+    },
+    {
+      "id": "93di",
+      "createdAt": "2025-03-14",
+      "comment": "이 설명 덕분에 잘 관리할 수 있을 것 같아요.",
+      "userId": "4e6a",
+      "postId": "59h3"
+    }
+  ]
+}
