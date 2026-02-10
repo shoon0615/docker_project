@@ -1,0 +1,46 @@
+[    3121ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/board:0
+[   84858ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3001/favicon.ico:0
+[   86405ms] [ERROR] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <div data-slot="sidebar-wr..." style={{...}} className="group/side...">
+      <BoardSide>
+        <Sidebar>
+          <div className="group peer..." data-state="expanded" data-collapsible="" data-variant="sidebar" ...>
+            <div>
+            <div data-slot="sidebar-co..." data-side="left" className="fixed inse...">
+              <div data-sidebar="sidebar" data-slot="sidebar-inner" className="bg-sidebar...">
+                <SidebarHeader>
+                  <div data-slot="sidebar-he..." data-sidebar="header" className="gap-2 p-2 ...">
+                    <SidebarMenu>
+                    <form>
+                      <SidebarGroup className="py-0">
+                        <div data-slot="sidebar-group" data-sidebar="group" className="p-2 relati...">
+                          <SidebarGroupContent className="relative">
+                            <div data-slot="sidebar-gr..." data-sidebar="group-content" className="text-sm w-...">
+                              <Label>
+                              <SidebarInput id="search" placeholder="Search the..." className="pl-8">
+                                <Input data-slot="sidebar-input" data-sidebar="input" className="bg-backgro..." ...>
+                                  <input
+                                    type={undefined}
+                                    data-slot="sidebar-input"
+                                    className="dark:bg-input/30 border-input focus-visible:border-ring focus-visible:r..."
+                                    data-sidebar="input"
+                                    id="search"
+                                    placeholder="Search the docs..."
+-                                   style={{caret-color:"transparent"}}
+                                  >
+                              ...
+                ...
+      ...
+ @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
