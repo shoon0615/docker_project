@@ -1,5 +1,5 @@
-import Header from '@/app/(default-layout)/board/components/BoardHeader'
-import Footer from '@/app/(default-layout)/board/components/BoardFooter'
+import Header from '@/app/(default-layout)/(main)/board/components/BoardHeader'
+import Footer from '@/app/(default-layout)/(main)/board/components/BoardFooter'
 
 import { cn } from '@/lib/utils'
 

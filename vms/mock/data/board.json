@@ -1,0 +1,80 @@
+[
+  {
+    "id": "26fu",
+    "activityRegionId": "001",
+    "activityTypeId": "001",
+    "activityFieldId": "001",
+    "recruitmentStatusId": "001",
+    "activityCycleId": "001",
+    "youthParticipation": false,
+    "title": "[강남구가족센터] 행정업무 보조 자원봉사자 모집",
+    "centerName": "강남구 복지관",
+    "volunteerPeriodStart": "2026-03-01",
+    "volunteerPeriodEnd": "2026-03-31"
+  },
+  {
+    "id": "26fm",
+    "activityRegionId": "999",
+    "activityTypeId": "999",
+    "activityFieldId": "999",
+    "recruitmentStatusId": "999",
+    "activityCycleId": "999",
+    "youthParticipation": false,
+    "title": "[노원구가족센터] 행정업무 보조 자원봉사자 모집",
+    "centerName": "노원구립 가족복지관",
+    "volunteerPeriodStart": "2026-03-01",
+    "volunteerPeriodEnd": "2026-03-31"
+  },
+  {
+    "id": "78gh",
+    "activityRegionId": "999",
+    "activityTypeId": "999",
+    "activityFieldId": "999",
+    "recruitmentStatusId": "999",
+    "activityCycleId": "999",
+    "youthParticipation": true,
+    "title": "[부산시립] 온라인 멘토링 봉사자 모집",
+    "centerName": "부산시립 청소년센터",
+    "volunteerPeriodStart": "2026-02-20",
+    "volunteerPeriodEnd": "2026-03-20"
+  },
+  {
+    "id": "ab12",
+    "activityRegionId": "999",
+    "activityTypeId": "999",
+    "activityFieldId": "999",
+    "recruitmentStatusId": "999",
+    "activityCycleId": "999",
+    "youthParticipation": false,
+    "title": "[성남복지관] 찾아가는 건강 상담 봉사",
+    "centerName": "성남시 의료원",
+    "volunteerPeriodStart": "2026-04-01",
+    "volunteerPeriodEnd": "2026-06-30"
+  },
+  {
+    "id": "cd34",
+    "activityRegionId": "999",
+    "activityTypeId": "999",
+    "activityFieldId": "999",
+    "recruitmentStatusId": "999",
+    "activityCycleId": "999",
+    "youthParticipation": true,
+    "title": "[제주국제학교] 문화 교류 봉사",
+    "centerName": "제주 국제 교류 센터",
+    "volunteerPeriodStart": "2026-07-01",
+    "volunteerPeriodEnd": "2026-07-15"
+  },
+  {
+    "id": "ef56",
+    "activityRegionId": "999",
+    "activityTypeId": "999",
+    "activityFieldId": "999",
+    "recruitmentStatusId": "999",
+    "activityCycleId": "999",
+    "youthParticipation": false,
+    "title": "[대구 환경운동] 플로깅 캠페인",
+    "centerName": "대구 환경 연합",
+    "volunteerPeriodStart": "2026-03-15",
+    "volunteerPeriodEnd": "2026-03-15"
+  }
+]

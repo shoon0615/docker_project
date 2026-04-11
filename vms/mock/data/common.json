@@ -1,0 +1,20 @@
+{
+  "activityRegions": [
+    { "id": "001", "code": "activityRegion", "name": "서울" }
+  ],
+  "activityRegionDetails": [
+    { "id": "001", "code": "activityRegionDetail", "name": "종로구" }
+  ],
+  "activityTypes": [
+    { "id": "001", "code": "activityType", "name": "대면" }
+  ],
+  "activityFields": [
+    { "id": "001", "code": "activityField", "name": "시설봉사" }
+  ],
+  "recruitmentStatuses": [
+    { "id": "001", "code": "recruitmentStatus", "name": "모집중" }
+  ],
+  "activityCycles": [
+    { "id": "001", "code": "activityCycle", "name": "정기" }
+  ]
+}

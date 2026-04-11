@@ -1,6 +1,6 @@
 import { SidebarTrigger } from '@/components/ui/sidebar'
-import MenuBar from '@/app/(default-layout)/board/components/BoardMenu'
-import MenuNav from '@/app/(default-layout)/board/components/BoardNav'
+import MenuBar from '@/app/(default-layout)/(main)/board/components/BoardMenu'
+import MenuNav from '@/app/(default-layout)/(main)/board/components/BoardNav'
 
 export default function BoardHeader() {
   return (

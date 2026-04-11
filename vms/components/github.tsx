@@ -102,7 +102,7 @@ import {
   PopoverContent,
   PopoverTrigger,
 } from '@/components/ui/popover'
-import { Separator } from '@/components/ui/separator'
+import { Separator } from '@/components/ui/custom/separator'
 import { Spinner } from '@/components/ui/spinner'
 import {
   Tabs,

@@ -3,7 +3,7 @@ import { Geist, Geist_Mono, Inter } from "next/font/google";
 import '@/styles/globals.css'
 
 import { SidebarProvider, SidebarInset } from '@/components/ui/sidebar'
-import Sidebar from '@/app/(default-layout)/board/components/BoardSide'
+import Sidebar from '@/app/(default-layout)/(main)/board/components/BoardSide'
 
 const inter = Inter({subsets:['latin'],variable:'--font-sans'});
 
